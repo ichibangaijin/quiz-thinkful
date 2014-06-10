@@ -43,7 +43,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
  #wrapper {
-    width:100%;
+    min-width:100%;
     height:1200px;
     padding-top:-100px;
     background-image:url(../img/California_Delta.jpg);
