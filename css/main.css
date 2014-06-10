@@ -51,7 +51,7 @@ textarea {
     background-size:cover;
 }
 .letsPlay {
-    font-size:50px;
+    font-size:25px;
     margin:auto;
     text-align:center;
     color:white;
@@ -96,13 +96,17 @@ h1 {
 .whatAmI {
     width:370px;
     color:white;
-    margin:auto;
-    font-size: 30px;
     position:absolute;
-    top:60px;
+    top:20px;
     left:120px;
     display:inline-block;
     z-index: 11;
+}
+
+.whatAmI p{
+  font-size: 25px;
+  text-align:center;
+  
 }
 .striperImage {
     background-image:url(../img/striper.gif);
@@ -134,6 +138,22 @@ input[type=checkbox]{
   
 }
 
+#scorebox {
+  width:230px;
+  height:40px;
+  background-color:#b3d4fc;
+  position:absolute;
+  top:110px;
+  left:190px;
+  font-size: 18px;
+}
+
+#scorebox p{
+  font-size: 18px;
+  text-align:center;
+  position:relative;
+  bottom:10px;
+}
 /* ==========================================================================
    Media Queries
    ========================================================================== */
